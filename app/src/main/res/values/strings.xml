@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Music App</string>
+    <string name="category_payment">Payment</string>
+    <string name="category_favourite">Favourite</string>
+    <string name="category_nowPlaying">Now Playing</string>
+    <string name="category_myPlayList">My Playlist</string>
+</resources>
+
+
+

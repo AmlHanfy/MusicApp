@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.aml.musicapp.MainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tan_background"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Main Activity"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:text="This Activity has list of options in my app like now playing , my playlist , favourite and payment activites  "
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/nowplaying"
+        style="@style/CategoryStyle"
+        android:background="@color/category_nowPlaying"
+        android:text="@string/category_nowPlaying" />
+
+    <TextView
+        android:id="@+id/myplaylist"
+        style="@style/CategoryStyle"
+        android:background="@color/category_myPlayList"
+        android:text="@string/category_myPlayList" />
+
+    <TextView
+        android:id="@+id/favourite"
+        style="@style/CategoryStyle"
+        android:background="@color/category_favourite"
+        android:text="@string/category_favourite" />
+
+    <TextView
+        android:id="@+id/payment"
+        style="@style/CategoryStyle"
+        android:background="@color/category_payment"
+        android:text="@string/category_payment" />
+
+</LinearLayout>
+</ScrollView>
